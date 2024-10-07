@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate">
+</head>
+<body>
+    <h1>Redirecionando...</h1>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const userLang = navigator.language || navigator.userLanguage;
+
+            if (userLang.startsWith('en')) {
+                window.location.href = 'en/index.html'; // URL da versão em inglês
+            } else if (userLang.startsWith('pt')) {
+                window.location.href = 'pt/index.html'; // URL da versão em português
+            } else {
+                window.location.href = 'en/index.html'; // URL padrão (ex: inglês)
+            }
+        });
+    </script>
+</body>
+</html>
