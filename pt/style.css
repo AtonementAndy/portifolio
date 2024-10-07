@@ -50,7 +50,7 @@ p {
 /* Seção de apresentação */
 
 #presentation{
-    background-image: url(./img/mac2.jpg);
+    background-image: url(/img/mac2.jpg);
     opacity: 1;
     background-size: cover;
     background-position: top center;
