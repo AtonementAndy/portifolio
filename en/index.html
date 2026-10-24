@@ -28,14 +28,46 @@
             <div class="all-projects">
                 <div class="project-item">
                     <div class="project-info">
-                        <h1>Fullstack ASP.NET MVC</h1>
-                        <h2>Stack: HTML, CSS, Bootstrap, C#</h2>
-                        <p>Project created to test implementations and some of the most commonly used libraries in ASP.NET Core projects focusing on the back-end. 
-                            This project is running in the cloud. I used Microsoft Azure to host not only the MVC App but also the SQL Server database.
-                            <br>
-                            <br>
-                            <a class="link-github" onmouseleave="" href="https://github.com/AtonementAndy/fullstack-aspnet-mvc.git" target="_blank">Github Repository</a>
+                        <h1>Ecommerce-CQRS</h1>
+                        <h2>Stack: ASPNET Core, Redis, RabbitMQ and more</h2>
+                        <p>A modern, robust, and scalable high-performance e-commerce backend, built with .NET 9 and following the principles of Clean Architecture, 
+                            CQRS, polyglot persistence (SQL Server + MongoDB), asynchronous messaging (RabbitMQ + MassTransit), distributed caching (Redis), and JWT-based authentication with policies.
                         </p>
+                        <br>
+                        <br>
+                        <a class="link-github" onmouseleave="" href="https://github.com/AtonementAndy/Ecommerce-CQRS.git" target="_blank">Github</a>
+                    </div>
+                    <div class="project-img">
+                        <img src="../img/ecommerce.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>ToDo Task App</h1>
+                        <h2>Stack: C#, Quartz.NET and more</h2>
+                        <p>A task management application where users create an account, access a dashboard upon logging in, and register tasks. 
+                            Users receive mobile notifications: one 5 minutes before a task's deadline and another when the time expires. 
+                            Built using ASP.NET Core, C#, and Quartz.NET (currently migrating from BackgroundService), with RabbitMQ for messaging.
+                        </p>
+                        <br>
+                        <br>
+                        <a class="link-github" onmouseleave="" href="https://github.com/AtonementAndy/todoapp" target="_blank">Github</a>
+                    </div>
+                    <div class="project-img">
+                        <img src="../img/todo.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Fullstack ASPNET Core MVC</h1>
+                        <h2>Stack: ASPNET Core MVC, HTML, CSS, Javascript, C#</h2>
+                        <p>A project I created to test implementations and some of the most widely used libraries in ASP.NET Core projects, with a focus on the back-end. 
+                            This project is currently running in the cloud. For study purposes, I implemented a 3-layer architecture (using the Repository Pattern), CQRS, and the Mediator pattern within the controllers. 
+                            This approach promotes a high degree of decoupling, which facilitates refactoring and makes it easier to implement fixes should any issues arise.
+                        </p>  
+                        <br>
+                        <br>
+                        <a class="link-github" onmouseleave="" href="https://github.com/AtonementAndy/fullstack-aspnet-mvc" target="_blank">Github</a>
                     </div>
                     <div class="project-img">
                         <img src="../img/candidates-for-job.jpg" alt="img">
@@ -45,15 +77,13 @@
                     <div class="project-info">
                         <h1>Movie Catalog API</h1>
                         <h2>Stack: C# em ASPNET Core WebAPI</h2>
-                        <p>I developed a Movie Catalog API using ASP.NET Core, implementing the Repository pattern and Mediator with CQRS 
-                            to separate commands and queries. I used DDD (Domain-Driven Design) to structure the project efficiently and 
-                            AutoMapper to simplify object mapping. Data persistence is handled with Dapper, connecting to a SQL Server database. 
-                            The API also integrates ILogger for robust log management, ensuring scalability and maintainability. 
-                            This project exemplifies a modern and solid architecture for web applications.</p>
-                           
-                            <br>
-                            <br>
-                            <a class="link-github" href="https://github.com/AtonementAndy/catalogo-filmes-api.git" target="_blank">Github Repository</a>
+                        <p>I developed a Movie Catalog API using ASP.NET Core, implementing the Repository pattern and the Mediator pattern with CQRS to separate commands from queries. 
+                            I employed Domain-Driven Design (DDD) to structure the project efficiently and used AutoMapper to simplify object mapping. Data persistence is handled via Dapper, 
+                            connecting to a SQL Server database. The API also integrates ILogger for robust log management, ensuring scalability and maintainability. This project exemplifies a modern, solid architecture for web applications.
+                        </p>  
+                        <br>
+                        <br>
+                        <a class="link-github" onmouseleave="" href="https://github.com/AtonementAndy/movies-catalog-webapi" target="_blank">Github</a>
                     </div>
                     <div class="project-img">
                         <img src="../img/series.jpg" alt="img">
@@ -62,16 +92,16 @@
                 <div class="project-item">
                     <div class="project-info">
                         <h1>Minimal-API Vehicle</h1>
-                        <h2>Stack: C# em ASPNET Core</h2>
+                        <h2>Stack: C#, ASPNET Core, Minimal-API</h2>
                         <p>Developed a Minimal API for vehicle registration in ASP.NET Core, using 
                             standard Repository and DDD (Domain-Driven Design). The application connects to a MySQL database via Docker and 
                             employment Entity Framework for data management. I implemented authorization and authentication with JWT Bearer 
                             allowing access control for Administrator and Editor roles. This project demonstrates a modern approach and 
                             security for building APIs.
-                              </p>
-                            <br>
-                            <br>
-                            <a class="link-github" href="https://github.com/AtonementAndy/minimal-api.git" target="_blank">Github Repository</a>
+                        </p>  
+                        <br>
+                        <br>
+                        <a class="link-github" onmouseleave="" href="https://github.com/AtonementAndy/minimal-api" target="_blank">Github</a>
                     </div>
                     <div class="project-img">
                         <img src="../img/vehicles.jpg" alt="img">
@@ -79,22 +109,23 @@
                 </div>
                 <div class="project-item">
                     <div class="project-info">
-                        <h1>Station One Flix</h1>
-                        <h2>Stack: C#</h2>
-                        <p>Application created for a test where I was asked to develop a movie registration system. 
-                            I used ASP.NET Core Web API, Repository Pattern, and SQL Server.</p>
-                            <br>
-                            <br>
-                            <a class="link-github" href="https://github.com/AndyAtonement/station-one-flix" target="_blank">Github Repository</a>
+                        <h1>Populating DB Through API</h1>
+                        <h2>Stack: C#, ASPNET Core WebAPI</h2>
+                        <p>A simple project for learning how to integrate external services such as a user API 
+                            containing user information and populating a SQL Server database by consuming that data.
+                        </p>  
+                        <br>
+                        <br>
+                        <a class="link-github" onmouseleave="" href="https://github.com/AtonementAndy/populating-DB-through-API" target="_blank">Github</a>
                     </div>
                     <div class="project-img">
-                        <img src="../img/family-friendly-movies-1.jpg" alt="img">
+                        <img src="../img/populating-db.png" alt="img">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer id="futao">
+    <footer id="footer">
             <h4>AtonementAndy: <a class="who" href="https://github.com/AtonementAndy" target="_blank">Github</a> -  
                 <a class="who" href="https://www.linkedin.com/in/andre-saantos/" target="_blank">Linkedin</a></h4>
     </footer>
